@@ -1,3 +1,15 @@
 .newsletter h2 {
 	color: red;
 }
+
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+footer nav.newsletter form input[type="email"] {
+	background-color: yellow;
+}
+
+footer nav.newsletter form input[type="email"]:invalid {
+	background-color: red;
+}
